@@ -1,0 +1,39 @@
+@import url(reset.css);
+
+body {
+    color: rgb(206, 253, 255);
+    display: flex;
+}
+
+.navbar-container {
+    background-color: rgb(43, 43, 43);
+    min-width: 100%;
+    justify-items: center;
+}
+
+.navbar-container ul {
+    display: flex;
+    list-style: none; 
+}
+
+li {
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(37, 37, 37);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem 0.5rem;
+    margin: 0rem 0.5rem 0rem;
+    align-items: center;
+}
+
+li img {
+    height: 1.75rem;
+    width: 1.75rem;
+    margin: 0em 0.75em 0em 0em
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
