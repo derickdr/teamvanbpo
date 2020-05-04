@@ -8,6 +8,7 @@ body {
 .navbar-container {
     background-color: rgb(43, 43, 43);
     min-width: 100%;
+    display: flex;
     justify-items: center;
 }
 
@@ -27,10 +28,11 @@ li {
     align-items: center;
 }
 
-li img {
+.nav-logo img {
     height: 1.75rem;
     width: 1.75rem;
-    margin: 0em 0.75em 0em 0em
+    margin: 0.5rem 5rem 0.5rem;
+    -ms-flex-align: start;
 }
 
 a {
