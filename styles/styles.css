@@ -96,3 +96,50 @@ a {
     color: white;
     padding: 3rem 0rem 0rem;
 }
+
+/* Services */
+
+.services-container {
+    background-color: #161616;
+    min-width: 100%;
+    min-height: 50vh;
+    padding: 6rem 0rem 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-header {
+    color: white;
+    font-size: 4rem;
+    text-transform: uppercase;
+    padding: 0rem 0rem 3rem;
+}
+
+.services-card-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0rem 0rem 2rem;
+}
+
+.service-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    min-width: 25rem;
+    margin: 0rem 3rem 0rem;
+    font-size: 2rem;
+}
+
+.service-logo {
+    color: #00cffe;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.service-logo:hover {
+    color: #8eeaff;
+    transition: all 0.3s ease-out;
+    font-size: 3.5rem;
+}
