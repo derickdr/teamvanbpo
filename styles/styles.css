@@ -1,12 +1,15 @@
 @import url(reset.css);
 
 body {
-    color: rgb(206, 253, 255);
+    background-color: rgb(206, 253, 255);
     display: flex;
+    flex-direction: column;
 }
 
+/* Navigation Bar */
+
 .navbar-container {
-    background-color: rgb(43, 43, 43);
+    background-color: #2b2b2b;
     min-width: 100%;
     max-height: 3rem;
     display: flex;
@@ -18,7 +21,7 @@ body {
     list-style: none; 
 }
 
-li {
+.nav-options li {
     border: 2px;
     border-style: solid;
     border-color: rgb(37, 37, 37);
@@ -39,4 +42,198 @@ li {
 a {
     color: white;
     text-decoration: none;
+}
+
+/* Home */
+
+.home-container {
+    background-image: url(../images/coal-harbour.png);
+    min-height: 100vh;
+    min-width: auto;
+    padding: 0rem 10rem 0rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.home-logo {
+    min-width: 10rem;
+    min-height: 10rem;
+    margin: 0rem 5rem 0rem 0rem;
+}
+
+.home-logo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.about {
+    min-width: 60rem;
+    max-height: 10rem;
+    margin: 0rem 0rem 0rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-header {
+    text-transform: uppercase;
+    font-size: 5rem;
+    color: white;
+}
+
+.home-subheader {
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    letter-spacing: 0.45rem;
+    color: #e7e7e7;
+    padding: 0rem 0rem 3rem 0rem;
+}
+
+.home-paragraph {
+    text-align: center;
+    font-size: 1.25rem;
+    color: white;
+    padding: 3rem 0rem 0rem;
+}
+
+/* Services */
+
+.services-container {
+    background-color: #161616;
+    min-width: 100%;
+    min-height: 50vh;
+    padding: 6rem 0rem 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-header {
+    color: white;
+    font-size: 4rem;
+    text-transform: uppercase;
+    padding: 0rem 0rem 3rem;
+}
+
+.services-card-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0rem 0rem 2rem;
+}
+
+.service-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    min-width: 25rem;
+    margin: 0rem 3rem 0rem;
+    font-size: 2rem;
+}
+
+.service-logo {
+    color: #00cffe;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.service-logo:hover {
+    color: #8eeaff;
+    transition: all 0.3s ease-out;
+    font-size: 3.5rem;
+}
+
+/* Pricing */
+
+.pricing-container {
+    background-image: url(../images/lost-lagoon.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem 0rem 6rem;
+    max-width: auto;
+    min-height: 80vh;
+}
+
+.pricing-header {
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: white;
+    padding: 0rem 0rem 2rem;
+}
+
+.pricing-subheader {
+    font-size: 1.25rem;
+    color: #e7e7e7;
+    max-width: 80%;
+}
+
+.pricing-card-container {
+    display: flex;
+    flex-direction: row;
+    min-width: 80%;
+    padding: 3rem 0rem 3rem;
+    justify-content: space-between;
+}
+
+.pricing-card {
+    border-style: solid;
+    background-color: #0167a2;
+    box-shadow: 3px 5px 15px #37627c;
+    border-radius: 1rem;
+    height: 25rem;
+    width: 16rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing-card-icon {
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.pricing-card-header {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.7em;
+    padding: 0rem 0rem 2rem;
+}
+
+.pricing-card-details ul {
+    color: #e7e7e7;
+    list-style: none;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    padding: 0rem 0rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing-card-value {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0rem 0rem 3rem;
+}
+
+.redeem-card-button {
+    background-color: #ffb732;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    height: 1.25rem;
+    letter-spacing: 0.2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.redeem-card-button:hover {
+    font-size: 1.3rem;
+    background-color: #fcc359;
+    height: 1.4rem;
+    transition: all 0.3s ease-out;
 }
