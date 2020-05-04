@@ -21,7 +21,7 @@ body {
     list-style: none; 
 }
 
-li {
+.nav-options li {
     border: 2px;
     border-style: solid;
     border-color: rgb(37, 37, 37);
@@ -86,7 +86,7 @@ a {
     text-transform: uppercase;
     font-size: 1.25rem;
     letter-spacing: 0.45rem;
-    color: rgb(231, 231, 231);
+    color: #e7e7e7;
     padding: 0rem 0rem 3rem 0rem;
 }
 
@@ -142,4 +142,41 @@ a {
     color: #8eeaff;
     transition: all 0.3s ease-out;
     font-size: 3.5rem;
+}
+
+/* Pricing */
+
+.pricing-container {
+    background-image: url(../images/lost-lagoon.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem 0rem 6rem;
+    max-width: auto;
+    min-height: 80vh;
+}
+
+.pricing-header {
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: white;
+    padding: 0rem 0rem 2rem;
+}
+
+.pricing-subheader {
+    font-size: 1.25rem;
+    color: #e7e7e7;
+    max-width: 80%;
+}
+
+.pricing-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 80%
+}
+
+.pricing-card {
+    display: flex;
+    flex-direction: column;
 }
