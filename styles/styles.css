@@ -173,10 +173,17 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    min-width: 80%
+    min-width: 80%;
+    padding: 3rem 0rem 3rem;
 }
 
 .pricing-card {
+    border-style: solid;
+    background-color: #0167a2;
+    box-shadow: 3px 5px 15px #37627c;
+    border-radius: 1.5rem;
+    min-height: 30rem;
+    min-width: 18rem;
     display: flex;
     flex-direction: column;
 }
