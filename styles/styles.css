@@ -8,6 +8,7 @@ body {
 .navbar-container {
     background-color: rgb(43, 43, 43);
     min-width: 100%;
+    max-height: 3rem;
     display: flex;
     justify-items: center;
 }
