@@ -10,9 +10,9 @@ body {
 
 .navbar-container {
     background-color: #2b2b2b;
-    min-width: 100%;
+    width: auto;
     max-height: 3rem;
-    padding: 0rem 10rem 0rem;
+    padding: 0.5rem 10rem 1rem;
     display: flex;
 }
 
@@ -28,8 +28,9 @@ body {
     border-color: rgb(37, 37, 37);
     font-size: 1.5rem;
     text-transform: uppercase;
-    padding: 0.5rem 1rem 0.5rem;
+    padding: 0.75rem;
     margin: 0rem 0.5rem 0rem;
+    border-radius: 0.5rem;
     align-items: center;
 }
 
