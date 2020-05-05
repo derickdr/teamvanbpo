@@ -337,3 +337,13 @@ ul.nav-options li a {
     color: white;
     font-size: 1.25rem;
 }
+
+/* Careers */
+
+.careers-container {
+    background-image: url(../images/ubc-vancouer-campus.png);
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 100vh;
+}
