@@ -344,6 +344,73 @@ ul.nav-options li a {
     background-image: url(../images/ubc-vancouer-campus.png);
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 3rem;
     width: auto;
     height: 100vh;
+}
+
+.careers-header {
+    color: white;
+    font-size: 4rem;
+    text-transform: uppercase;
+    padding: 0rem 0rem 2rem;
+}
+
+.career-card-container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.career-card {
+    background-color: rgb(97, 97, 97);
+    opacity: 0.5;
+    display: flex;
+    flex-direction: column;
+    border-left: #587e96 1.5rem solid;
+    box-shadow: 3px 3px 3px black;
+    padding: 2rem;
+    margin: 0.5rem;
+    width: 25%;
+}
+
+.career-name {
+    color: white;
+    font-size: 1.5rem;
+    width: 90%;
+    height: 1.75rem;
+    margin: 0.5rem;
+    border-bottom: 1px solid white;
+    opacity: 1;
+}
+
+.career-details-container {
+    color: white;
+    font-size: 1rem;
+    opacity: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.career-hours, .career-hours, .career-language-requirement {
+    width: 40%;
+    margin: 0rem 0rem 0.25rem;
+}
+
+.career-hours i, .career-hours i, .career-language-requirement i {
+    padding: 0rem 0.25rem 0rem 0rem;
+}
+
+.career-language-requirements ul{
+    list-style: disc;
+    padding: 0.5rem 3rem;
+}
+
+.career-description {
+    color: white;
+    font-size: 1rem;
+    padding: 1rem 0rem;
 }
