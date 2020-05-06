@@ -362,6 +362,7 @@ ul.nav-options li a {
     flex-direction: row;
     align-content: center;
     justify-content: space-between;
+    padding: 2rem 0rem;
     width: 80%;
 }
 
