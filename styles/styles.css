@@ -55,8 +55,8 @@ ul.nav-options li a {
 }
 
 .home-logo {
-    width: 10rem;
-    height: 10rem;
+    width: 12rem;
+    height: 12rem;
     padding: 5rem 5rem 3rem;
 }
 
@@ -76,23 +76,24 @@ ul.nav-options li a {
 
 .home-header {
     text-transform: uppercase;
-    font-size: 5rem;
+    font-size: 5.5rem;
+    letter-spacing: 0.5rem;
     color: white;
 }
 
 .home-subheader {
     text-transform: uppercase;
-    font-size: 1.3rem;
-    letter-spacing: 0.45rem;
+    font-size: 1.25rem;
+    letter-spacing: 0.25rem;
     color: #e7e7e7;
-    padding: 0rem 0rem 3rem;
+    padding: 0rem 0rem 1.5rem;
 }
 
 .home-paragraph {
     text-align: center;
     font-size: 1.25rem;
     color: white;
-    padding: 3rem 0rem 0rem;
+    padding: 1.5rem 0rem 0rem;
 }
 
 /* Services */
